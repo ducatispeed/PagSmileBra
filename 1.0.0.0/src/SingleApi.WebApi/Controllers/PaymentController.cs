@@ -1,14 +1,9 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using SfpSharedLib.Api.RestApi;
-using SingleApi.Data.Contracts.Shared;
 using SingleApi.Svc.Contracts.Paysafe.Commands;
 using SingleApi.Svc.Contracts.Paysafe.Models.Input;
-using SingleApi.Svc.Contracts.Paysafe.Models.Requests;
-using SingleApi.Svc.Contracts.Paysafe.Services;
-using static SingleApi.Svc.Contracts.Paysafe.Models.Requests.PostPaymentHandleRequest;
+using SingleApi.Svc.PaySafe.Models.Requests;
 
 namespace SingleApi.WebApi.Controllers
 {
@@ -51,6 +46,12 @@ namespace SingleApi.WebApi.Controllers
         public async Task<IActionResult> CheckPaymentStatus([FromRoute]string operationId)
         {
             return From(await _mediator.Send(new CreateBankPaymentHandleCommand() { OperationId = operationId}));
+        }
+        [Route("callbackprocess")]
+        [HttpPost]
+        public async Task<IActionResult> CallbackPayment([FromBody] CallBackPaymentRequest request )
+        {
+            return From(await _mediator.Send( new CallBackPaymentHandleCommand() { OperationId = "5555"}));
         }
     }
 }

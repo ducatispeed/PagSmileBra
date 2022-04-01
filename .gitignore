@@ -1,0 +1,7 @@
+﻿1.0.0.0/src/SingleApi.Data/bin
+1.0.0.0/src/SingleApi.Data.Contracts/bin
+1.0.0.0/src/SingleApi.Domain/bin
+*bin
+*obj
+*bin
+*obj
