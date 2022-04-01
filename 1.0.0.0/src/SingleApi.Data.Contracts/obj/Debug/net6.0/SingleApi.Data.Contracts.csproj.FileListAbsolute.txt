@@ -1,0 +1,15 @@
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\bin\Debug\net6.0\SingleApi.Data.Contracts.deps.json
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\bin\Debug\net6.0\SingleApi.Data.Contracts.dll
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\bin\Debug\net6.0\SingleApi.Data.Contracts.pdb
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\bin\Debug\net6.0\SingleApi.Infrastructure.dll
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\bin\Debug\net6.0\SingleApi.Infrastructure.pdb
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.csproj.AssemblyReference.cache
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.AssemblyInfoInputs.cache
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.AssemblyInfo.cs
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.csproj.CoreCompileInputs.cache
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.csproj.CopyComplete
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.dll
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\refint\SingleApi.Data.Contracts.dll
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\SingleApi.Data.Contracts.pdb
+D:\WorkLightPoint\SafetyPay\Repos\1744\SingleAPI\1.0.0.0\src\SingleApi.Data.Contracts\obj\Debug\net6.0\ref\SingleApi.Data.Contracts.dll

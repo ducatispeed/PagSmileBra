@@ -1,0 +1,491 @@
+﻿++Solution 'SingleApi' ‎(12 of 12 projects)
+i:{00000000-0000-0000-0000-000000000000}:SingleApi.sln
+++Infrastructure
+i:{00000000-0000-0000-0000-000000000000}:Infrastructure
+++SingleApi.Infrastructure
+i:{79b532ff-32d6-44e4-a7b7-701c65422eed}:SingleApi.Infrastructure
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\bin\debug\net6.0\singleapi.infrastructure.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\bin\debug\net6.0\singleapi.infrastructure.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\bin\debug\net6.0\singleapi.infrastructure.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\bin\debug\net6.0\singleapi.infrastructure.dll
+++Dependencies
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:>824
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1241
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:>383
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:>694
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:>284
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:>461
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:>506
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:>626
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:>990
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:>856
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:>1022
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:>1087
+++Constants
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\constants\
+++Enums
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\
+++ActionsTypes.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\actionstypes.cs
+++BankStatus.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\bankstatus.cs
+++Channel.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\channel.cs
+++ErrorTypes.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\errortypes.cs
+++ExecutionModes.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\executionmodes.cs
+++PaymentStatusTypes.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\paymentstatustypes.cs
+++PaymentTypes.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\enums\paymenttypes.cs
+++Wrappers
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\wrappers\
+++Analyzers
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:analyzers
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:analyzers
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:analyzers
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:analyzers
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:analyzers
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:analyzers
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:analyzers
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:analyzers
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:analyzers
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:analyzers
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:analyzers
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:analyzers
+++Frameworks
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:frameworks
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:frameworks
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:frameworks
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:frameworks
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:frameworks
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:frameworks
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:frameworks
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:frameworks
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:frameworks
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:frameworks
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:frameworks
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:frameworks
+++Packages
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:packages
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:packages
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:packages
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:packages
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:packages
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:packages
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:packages
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:packages
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:packages
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:packages
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:packages
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:packages
+++AppSettings.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\constants\appsettings.cs
+++ConnectionNames.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\constants\connectionnames.cs
+++PaymentRequest.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\constants\paymentrequest.cs
+++NetworkHelper.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\wrappers\networkhelper.cs
+++WSLoggerWrapper.cs
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\wrappers\wsloggerwrapper.cs
+++MappingGenerator
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\mappinggenerator.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Newtonsoft.Json
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\newtonsoft.json.dll
+++Pluralize.NET
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:c:\users\dzholnerovich\.nuget\packages\mappinggenerator\2022.3.40\analyzers\dotnet\cs\pluralize.net.dll
+++System.Text.Json.SourceGeneration
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.infrastructure\microsoft.netcore.app
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\microsoft.netcore.app
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\microsoft.netcore.app
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\microsoft.netcore.app
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.domain.contracts\microsoft.netcore.app
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.query.contracts\microsoft.netcore.app
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\microsoft.netcore.app
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.domain\microsoft.netcore.app
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\microsoft.netcore.app
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.query\microsoft.netcore.app
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.integrationtests\microsoft.netcore.app
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.unittests\microsoft.netcore.app
+++MappingGenerator (2022.3.40)
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:>1307
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1379
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:>1354
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:>1259
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:>1343
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:>1280
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:>1416
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:>1419
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:>1353
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:>1271
+++MediatR (9.0.0)
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:>1304
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1378
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:>1351
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:>1258
+i:{c7531fb4-3d37-404a-83f3-6411467a6c58}:>1339
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:>1459
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:>1414
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:>1417
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:>1350
+i:{619f679e-9ead-4eb3-bde6-d78ebc3304a0}:>1458
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:>1300
+i:{8459eb88-70e3-4ba9-860f-05623d620545}:>1372
+++SfpCoreLib (1.0.2)
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:>1308
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1380
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:>1260
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:>1281
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:>1421
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:>1363
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:>1306
+++SfpSharedLib (1.0.8)
+i:{5d645679-ad39-4fcf-b0d8-902a54f65365}:>1299
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1376
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:>1257
+i:{956c9d9b-18a3-4349-8a2c-2cae1a1bf98a}:>1278
+i:{7ca87e07-6e03-48c7-a559-4f483409db04}:>1415
+i:{5be86f00-1d05-4c26-83b5-c115cf788b64}:>1298
+++Server
+i:{00000000-0000-0000-0000-000000000000}:Server
+++SingleApi.WebApi
+i:{db2e4566-01ce-4254-ab68-a983be426b6d}:SingleApi.WebApi
+++Connected Services 
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1242
+++Properties
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\properties\
+++BaseModels
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\basemodels\
+++Config
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\
+++Auth
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\auth\
+++Auth.cs
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\auth\auth.cs
+++Extensions
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\extensions\
+++RequestLoggingMiddlewareExtension.cs
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\extensions\requestloggingmiddlewareextension.cs
+++SwaggerExtension.cs
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\extensions\swaggerextension.cs
+++Filters
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\filters\
+++Middlewares
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\middlewares\
+++RequestLoggingMiddleware.cs
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\config\middlewares\requestloggingmiddleware.cs
+++Controllers
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\controllers\
+++PaymentController.cs
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\controllers\paymentcontroller.cs
+++appsettings.json
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\appsettings.json
+++Program.cs
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\program.cs
+++Startup.cs
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\startup.cs
+++web.config
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\web.config
+++No service dependencies discovered
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1243
+++Projects
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:projects
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:projects
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:projects
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:projects
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:projects
+++launchSettings.json
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\properties\launchsettings.json
+++appsettings.Development.json
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.webapi\microsoft.aspnetcore.app
+++Swashbuckle.AspNetCore (6.3.0)
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:>1377
+++SingleApi.Data
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\bin\debug\net6.0\singleapi.data.dll
+i:{dc962612-d8f0-48b2-88ea-7333c12feecd}:SingleApi.Data
+++SingleApi.Data.Contracts
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\bin\debug\net6.0\singleapi.data.contracts.dll
+i:{7661c1e1-362e-412b-9af1-618d5514e98d}:SingleApi.Data.Contracts
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\bin\debug\net6.0\singleapi.data.contracts.dll
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\bin\debug\net6.0\singleapi.data.contracts.dll
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\bin\debug\net6.0\singleapi.data.contracts.dll
+++SingleApi.Svc
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\bin\debug\net6.0\singleapi.svc.dll
+i:{631c5265-44ef-410f-a761-984696671ebe}:SingleApi.Svc
+++SingleApi.Svc.Contracts
+i:{d1b1b3b9-0e32-44d3-8823-ccbb1a1bda6b}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\bin\debug\net6.0\singleapi.svc.contracts.dll
+i:{7661c1e1-362e-412b-9af1-618d5514e98d}:SingleApi.Svc.Contracts
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\bin\debug\net6.0\singleapi.svc.contracts.dll
+++Contracts
+i:{00000000-0000-0000-0000-000000000000}:Contracts
+++Base
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\base\
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\base\
+++Models
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\
+++BatchProcess
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\batchprocess\
+++Partner
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\partner\
+++Payment
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\payment\
+++PROD
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\prod\
+++MerchantInfo.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\prod\merchantinfo.cs
+++OneStepToken.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\prod\onesteptoken.cs
+++Operation.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\prod\operation.cs
+++OperationInfo.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\prod\operationinfo.cs
+++Payment.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\prod\payment.cs
+++GatewayPspConfiguration.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\gatewaypspconfiguration.cs
+++OperationStatus.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\operationstatus.cs
+++PayTransactionError.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\paytransactionerror.cs
+++Transaction.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\transaction.cs
+++TransactionPaymentReference.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\transactionpaymentreference.cs
+++TransactionStatusResponseLog.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\transactionstatusresponselog.cs
+++Shared
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\shared\
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\shared\
+++DataConstants.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\dataconstants.cs
+++IBaseRepository.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\base\ibaserepository.cs
+++CronFiredTrigger.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\batchprocess\cronfiredtrigger.cs
+++SyExecProcessInstance.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\batchprocess\syexecprocessinstance.cs
+++SyExecProcessStatus.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\batchprocess\syexecprocessstatus.cs
+++BankMapping.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\partner\bankmapping.cs
+++Configuration.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\partner\configuration.cs
+++Bank.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\models\payment\bank.cs
+++IBatchProcessDbWRepository.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\shared\ibatchprocessdbwrepository.cs
+++IPartnerRepository.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\shared\ipartnerrepository.cs
+++IPaymentRepository.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\shared\ipaymentrepository.cs
+++IProdRepository.cs
+i:{96ac4e58-e06a-4e17-807a-d468875cb072}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data.contracts\shared\iprodrepository.cs
+++Paysafe
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\
+++Commands
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\commands\
+++CheckPaymentStatusHandleCommand.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\commands\checkpaymentstatushandlecommand.cs
+++CreatePaymentHandleCommand.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\commands\createpaymenthandlecommand.cs
+++GetPaymentStatusHandleCommand.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\commands\getpaymentstatushandlecommand.cs
+++Input
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\input\
+++Requests
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\requests\
+++GetPaymentStatusHandleRequest.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\requests\getpaymentstatushandlerequest.cs
+++PostPaymentHandleRequest.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\requests\postpaymenthandlerequest.cs
+++PostPaymentHubHandleRequest.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\requests\postpaymenthubhandlerequest.cs
+++Responses
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\responses\
+++CheckPaymentStatusHandleResponse.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\responses\checkpaymentstatushandleresponse.cs
+++GetPaymentStatusHandleResponse.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\responses\getpaymentstatushandleresponse.cs
+++PostPaymentHandleResponse.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\responses\postpaymenthandleresponse.cs
+++PostPaymentHubHandleResponse.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\responses\postpaymenthubhandleresponse.cs
+++View
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\view\
+++CheckPaymentStatusHandleViewModel.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\view\checkpaymentstatushandleviewmodel.cs
+++CreatePaymentHandleViewModel.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\view\createpaymenthandleviewmodel.cs
+++GetPaymentStatusHandleViewModel.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\view\getpaymentstatushandleviewmodel.cs
+++Services
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\services\
+i:{00000000-0000-0000-0000-000000000000}:Services
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\services\
+++CreatePaymentHandleInputModel.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\input\createpaymenthandleinputmodel.cs
+++IPaysafeApiService.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\services\ipaysafeapiservice.cs
+++SingleApi.Domain.Contracts
+i:{7661c1e1-362e-412b-9af1-618d5514e98d}:SingleApi.Domain.Contracts
+++SingleApi.Query.Contracts
+i:{7661c1e1-362e-412b-9af1-618d5514e98d}:SingleApi.Query.Contracts
+++Data
+i:{00000000-0000-0000-0000-000000000000}:Data
+++BaseRepository.cs
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\base\baserepository.cs
+++BatchProcessDbWRepository.cs
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\shared\batchprocessdbwrepository.cs
+++PartnerRepository.cs
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\shared\partnerrepository.cs
+++PaymentRepository.cs
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\shared\paymentrepository.cs
+++ProdRepository.cs
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.data\shared\prodrepository.cs
+++Dapper (2.0.123)
+i:{d1159932-bc8a-4e4d-af52-41c2dd352f47}:>1412
+++Domain
+i:{00000000-0000-0000-0000-000000000000}:Domain
+++SingleApi.Domain
+i:{ccc5032b-9ab9-4371-b9b1-15d3c0553b24}:SingleApi.Domain
+++Builders
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\builders\
+++GetPaymentRequestBuilder.cs
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\builders\getpaymentrequestbuilder.cs
+++Handlers
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\handlers\
+++CheckPaymentStatusHandleCommandHandler.cs
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\handlers\checkpaymentstatushandlecommandhandler.cs
+++CreatePaymentHandleCommandHandler.cs
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\handlers\createpaymenthandlecommandhandler.cs
+++GetPaymentStatusHandleCommandHandler.cs
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\handlers\getpaymentstatushandlecommandhandler.cs
+++Validators
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\validators\
+++PaysafeApiService.cs
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc\paysafe\services\paysafeapiservice.cs
+++RestSharp (107.3.0)
+i:{242adfe4-f74a-424e-a1da-7522c8aafd4c}:>1358
+++SingleApi.Query
+i:{631c5265-44ef-410f-a761-984696671ebe}:SingleApi.Query
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++SingleApi.IntegrationTests
+i:{d3b4fe95-6c35-489a-a044-ceddeb04c19c}:SingleApi.IntegrationTests
+++SingleApi.UnitTests
+i:{d3b4fe95-6c35-489a-a044-ceddeb04c19c}:SingleApi.UnitTests
+++CreatePaymentHandleInputModel - Copy.cs
+++CheckPaymentStatusHandleInputModel.cs
+i:{4642fe93-ca37-4a85-a4e0-4f636ea4dc18}:d:\worklightpoint\safetypay\repos\1744\singleapi\1.0.0.0\src\singleapi.svc.contracts\paysafe\models\input\checkpaymentstatushandleinputmodel.cs

@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MappingGenerator/2022.3.40": {
+        "type": "package"
+      },
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MappingGenerator/2022.3.40": {
+      "sha512": "9LpV1smTg3ilLYIrCISnqPpzMaZ5JPlwp/uL0vK44XBdcDMe+VEZMB0Ar6/sd63IoEfeQz/nzDbWSFsw7m2oJg==",
+      "type": "package",
+      "path": "mappinggenerator/2022.3.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/MappingGenerator.dll",
+        "analyzers/dotnet/cs/Newtonsoft.Json.dll",
+        "analyzers/dotnet/cs/Pluralize.NET.dll",
+        "mappinggenerator.2022.3.40.nupkg.sha512",
+        "mappinggenerator.nuspec"
+      ]
+    },
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MappingGenerator >= 2022.3.40",
+      "MediatR >= 9.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dzholnerovich\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Query\\SingleApi.Query.csproj",
+      "projectName": "SingleApi.Query",
+      "projectPath": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Query\\SingleApi.Query.csproj",
+      "packagesPath": "C:\\Users\\dzholnerovich\\.nuget\\packages\\",
+      "outputPath": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Query\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dzholnerovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\10.1.24.71\\c$\\SafetyPayFiles": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MappingGenerator": {
+            "target": "Package",
+            "version": "[2022.3.40, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

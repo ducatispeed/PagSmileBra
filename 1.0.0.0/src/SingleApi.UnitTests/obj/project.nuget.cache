@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NtFqiPBXBIJucIcVuuS8p4gyKeMZ9kBtqka9Er/0ppA2JkRdT+7P0W7MY3ijNJe8lUJWtguHMZmDziCiLLm/pg==",
+  "success": true,
+  "projectFilePath": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.UnitTests\\SingleApi.UnitTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dzholnerovich\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Domain\\SingleApi.Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Domain\\SingleApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Domain\\SingleApi.Domain.csproj",
+        "projectName": "SingleApi.Domain",
+        "projectPath": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Domain\\SingleApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\dzholnerovich\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dzholnerovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.1.24.71\\c$\\SafetyPayFiles": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MappingGenerator": {
+              "target": "Package",
+              "version": "[2022.3.40, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "SfpCoreLib": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "SfpSharedLib": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

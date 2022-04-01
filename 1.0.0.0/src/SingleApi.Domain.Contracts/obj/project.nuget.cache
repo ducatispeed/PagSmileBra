@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ic9JvK1rUZKZFKbent5nHrqdSo6ZTsMj1DKuBCHOVbCVzjG6tMAdDvc5tHOj1gMaQ2oLaQ8ciou8E0Z808LSNg==",
+  "success": true,
+  "projectFilePath": "D:\\WorkLightPoint\\SafetyPay\\Repos\\2000\\PagSmileBra\\1.0.0.0\\src\\SingleApi.Domain.Contracts\\SingleApi.Domain.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dzholnerovich\\.nuget\\packages\\mappinggenerator\\2022.3.40\\mappinggenerator.2022.3.40.nupkg.sha512",
+    "C:\\Users\\dzholnerovich\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
