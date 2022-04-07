@@ -195,6 +195,17 @@ WHERE O.[OperationID] = @operationId";
             param.Add("@BankId", bankId, DbType.AnsiStringFixedLength, ParameterDirection.Input, 4);
             return await GetFirstOrDefaultAsync<string>(sql, param);
         }
+        public async Task<string> GetLastStatusByOperationId(string operationId)
+        {
+            string sql = @"SELECT TOP 1 [LastStatus]
+                            FROM [dbo].[Operation]
+                            WHERE [OperationId] = @operationId";
+
+            var parameters = new DynamicParameters();
+            parameters.Add("operationId", operationId, System.Data.DbType.AnsiString);
+
+            return await GetFirstOrDefaultAsync<string>(sql, parameters);
+        }
 
         private class CustomerInfo
         {

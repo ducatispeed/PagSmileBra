@@ -18,4 +18,8 @@
     <ProjectReference Include="..\SingleApi.Infrastructure\SingleApi.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Paysafe\Models\Input\" />
+  </ItemGroup>
+
 </Project>

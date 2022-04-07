@@ -1,0 +1,26 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://core.intranet.safetypay.com/CoreWS/ServiceEntry.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, CoreWS"
+    ],
+    "references": [
+      "Microsoft.AspNetCore.Http.Abstractions, {Microsoft.AspNetCore.Http.Abstractions, 2.2.0}",
+      "Microsoft.AspNetCore.Http.Features, {Microsoft.AspNetCore.Http.Features, 2.2.0}",
+      "Microsoft.AspNetCore.Mvc.Abstractions, {Microsoft.AspNetCore.Mvc.Abstractions, 2.2.0}",
+      "Microsoft.AspNetCore.Routing.Abstractions, {Microsoft.AspNetCore.Routing.Abstractions, 2.2.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 2.2.0}",
+      "Microsoft.Net.Http.Headers, {Microsoft.Net.Http.Headers, 2.2.0}",
+      "System.Runtime.CompilerServices.Unsafe, {System.Runtime.CompilerServices.Unsafe, 4.5.1}",
+      "System.Text.Encodings.Web, {System.Text.Encodings.Web, 4.5.0}"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

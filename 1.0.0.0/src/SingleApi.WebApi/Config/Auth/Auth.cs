@@ -1,4 +1,7 @@
-﻿using SfpSharedLib.Api.Extensions;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using SfpSharedLib.Api.Extensions;
 
 namespace SingleApi.WebApi.Config.Auth
 {

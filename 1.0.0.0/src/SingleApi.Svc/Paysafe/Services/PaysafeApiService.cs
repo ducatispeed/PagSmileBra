@@ -21,7 +21,27 @@ namespace SingleApi.Svc.Paysafe.Services
             _jsonSettings = new JsonSerializerSettings { ContractResolver = new CamelCasePropertyNamesContractResolver() };
             _wSLoggerWrapper = wSLoggerWrapper;
         }
+        public async Task<CallbackPaymentHandleResponse> CallbackPaymentHandleAsync(CallbackPaymentHandleRequest request, IEnumerable<GatewayPspConfiguration> config)
+        {
+            using var httpClient = _httpClientFactory.CreateClient();
+            httpClient.DefaultRequestHeaders.Add("Authorization", config.FirstOrDefault(x => x.ConfigurationName == "Authorization")?.Value);
+            var json = JsonConvert.SerializeObject(request, _jsonSettings);
+            var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
+            var url = config.FirstOrDefault(x => x.ConfigurationName == "CallbackHandleUrl")?.Value + $"/{request.OperationId}";
+            var response = httpClient.PostAsync(url, content).GetAwaiter().GetResult();
+            var responseContent = await response.Content.ReadAsStringAsync();
+            _wSLoggerWrapper.LogRequest(
+                requestUrl: url,
+                requestMethod: "POST",
+                requestContentType: content.Headers.ContentType.ToString(),
+                requestContentEncoding: content.Headers.ContentEncoding.ToString(),
+                requestContentBody: await content.ReadAsStringAsync(),
+                responseContent: responseContent,
+                isExternalApiCall: true);
+
+            return JsonConvert.DeserializeObject<CallbackPaymentHandleResponse>(await response.Content.ReadAsStringAsync());
+        }
         public async Task<PostPaymentHandleResponse> PostPaymentHandleAsync(PostPaymentHandleRequest request, IEnumerable<GatewayPspConfiguration> config)
         {
             using var httpClient = _httpClientFactory.CreateClient();

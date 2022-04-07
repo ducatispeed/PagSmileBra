@@ -6,10 +6,14 @@ using SingleApi.Data.Shared;
 using SingleApi.Infrastructure.Constants;
 using SingleApi.Svc.Paysafe.Services;
 using SingleApi.Svc.Contracts.Paysafe.Services;
+using System.Text.Json;
 using SingleApi.Svc.Contracts.Paysafe.Commands;
 using SingleApi.Svc.Contracts.Paysafe.Models.View;
 using MediatR;
 using SingleApi.Svc.Paysafe.Handlers;
+using SingleApi.Svc.Contracts.Paysafe.Services;
+using SfpSharedLib.CrossConcerns.Logging.WsLogger;
+using SfpSharedLib.CrossConcerns.Logging.CustomLogger;
 using SingleApi.Infrastructure.Wrappers;
 using System.Data.SqlClient;
 using Serilog;
@@ -90,12 +94,10 @@ namespace SingleApi.WebApi
         private IEnumerable<Assembly> GetAssemblies()
         {
             yield return typeof(Startup).Assembly;
-            yield return typeof(CreatePaymentHandleCommand).Assembly;
+            yield return typeof(CallBackPaymentHandler).Assembly;
+            yield return typeof(CallBackPaymentHandleCommand).Assembly;
             yield return typeof(GetPaymentStatusHandleCommand).Assembly;
-            yield return typeof(CreatePaymentHandleViewModel).Assembly;
             yield return typeof(GetPaymentStatusHandleViewModel).Assembly;
-            yield return typeof(CreatePaymentHandleCommandHandler).Assembly;
-            yield return typeof(GetPaymentStatusHandleCommandHandler).Assembly;
         }
 
         WSLoggerWrapper AddWsLogger(IServiceProvider services)

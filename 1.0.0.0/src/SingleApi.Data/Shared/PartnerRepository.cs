@@ -221,5 +221,13 @@ VALUES (@tokenId, @operationId, @description, @errorCode, @bankId, GETDATE())";
 
             return await GetFilteredListAsync<BankMapping>("[Integration].[uspBankMappingGetByGatewayPspCode]", parameters, CommandType.StoredProcedure);
         }
+        public async Task<string> GetOperationIdByPayloadId(string payloadId)
+        {
+            var sql = @"SELECT OperationId FROM [Integration].[Transaction] WITH(NOLOCK) 
+                            WHERE [BankOperationID] = @PayloadId";
+            var param = new DynamicParameters();
+            param.Add("@PayloadId", payloadId);
+            return await GetFirstOrDefaultAsync<string>(sql, param);
+        }
     }
 }

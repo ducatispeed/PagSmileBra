@@ -22,5 +22,6 @@ namespace SingleApi.Data.Contracts.Shared
         Task<Payment> OperationIsForced(string operationId);
         Task<string> GetMerchantCssByOperationId(string operationId);
         Task<string> GetBankNameByBankId(string bankId);
+        Task<string> GetLastStatusByOperationId(string operationId);
     }
 }

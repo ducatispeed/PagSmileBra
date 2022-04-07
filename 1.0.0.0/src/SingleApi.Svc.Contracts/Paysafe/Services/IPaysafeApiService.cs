@@ -8,6 +8,7 @@ namespace SingleApi.Svc.Contracts.Paysafe.Services
     {
         Task<PostPaymentHandleResponse> PostPaymentHandleAsync(PostPaymentHandleRequest request, IEnumerable<GatewayPspConfiguration> config);
         Task<GetPaymentStatusHandleResponse?> GetPaymentStatusHandleAsync(GetPaymentStatusHandleRequest request, IEnumerable<GatewayPspConfiguration> config);
+        Task<CallbackPaymentHandleResponse> CallbackPaymentHandleAsync(CallbackPaymentHandleRequest request, IEnumerable<GatewayPspConfiguration> config);
         Task<PostPaymentHubHandleResponse?> PostPaymentHubHandleAsync(PostPaymentHubHandleRequest request, IEnumerable<GatewayPspConfiguration> config);
     }
 }

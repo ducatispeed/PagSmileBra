@@ -23,5 +23,6 @@ namespace SingleApi.Data.Contracts.Shared
         Task<BankMapping> GetBankMapping(string operationId);
         
         Task<IEnumerable<BankMapping>> GetBankMappingIdsByBankId(string bankId);
+        Task<string> GetOperationIdByPayloadId(string payloadId);
     }
 }
